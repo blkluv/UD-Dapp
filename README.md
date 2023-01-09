@@ -9,8 +9,8 @@ ProxyReader provides an interface that allows to fetch information about
 domains from both UNSRegistry and CNS smart contracts in one call.
 ```
 
-* Video demo 
-* Site demo 
+* Video demo https://www.youtube.com/watch?v=Cp7Ntld-0UI
+* Site demo https://uns-domains-resolution-dapp.netlify.app/
 
 ## dApp created using:
 
