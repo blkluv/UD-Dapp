@@ -16,14 +16,14 @@ export default function App() {
     return (
         <div style={{display: "block", width: "800px", maxWidth: "90%", margin: "50px auto", marginBottom: "10px"}}>
             <Message info style={{textAlign: "center"}}>
-                <h2>Unstoppable Domain Resolution dApp</h2>
+                <h2>ARVRtise Domain Verification</h2>
                 <p>
-                    Enter a unstoppable domain name (registered on Ethereum Mainnet or Polygon Mainnet) and get details like owner, image and more.
+                    Enter a ARVRtise Unstoppable domain name (registered on Ethereum Mainnet or Polygon Mainnet) to verify membership badge, owner, coupon and more.
                 </p>
             </Message>
 
             <Message info>
-                <p><b>Domain:</b></p>
+                <p><b>ARVRtise Domain:</b></p>
                 <Input style={{width: "100%", marginBottom: "10px"}} placeholder='Domain name'
                        onChange={(e) => setDomain(e.target.value)}/>
                 <br/>
