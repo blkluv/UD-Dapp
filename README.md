@@ -1,4 +1,4 @@
-# Unstoppable Domain Resolution dApp
+# ARVRtise Domain Verification
 
 This dApp integrates "Unstoppable Resolution API" feature for getting information about domains (registered on Ethereum Mainnet or Polygon Mainnet).
 
@@ -9,8 +9,7 @@ ProxyReader provides an interface that allows to fetch information about
 domains from both UNSRegistry and CNS smart contracts in one call.
 ```
 
-* Video demo https://www.youtube.com/watch?v=Cp7Ntld-0UI
-* Site demo https://uns-domains-resolution-dapp.netlify.app/
+* Site demo https://verify.arvrtise.com
 
 ## dApp created using:
 
