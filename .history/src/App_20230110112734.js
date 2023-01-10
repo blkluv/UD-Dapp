@@ -15,7 +15,6 @@ export default function App() {
 
     return (
         <div style={{display: "block", width: "800px", maxWidth: "90%", margin: "50px auto", marginBottom: "10px"}}>
-            <div><img src="https://media.discordapp.net/attachments/1047420970371121153/1062240873917718588/Header.png?width=716&height=448" /></div> 
             <Message info style={{textAlign: "center"}}>
                 <h2>ARVRtise Domain Verification</h2>
                 <p>
