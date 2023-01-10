@@ -23,7 +23,7 @@ export default function App() {
                     style={{width: "100%", maxWidth:"90%", margin: "50px auto", marginBottom: "10px", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75"}}
                     />
             </div> 
-            <Message left info style={{textAlign: "left", color: "black", backgroundColor: "white", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75"}}>
+            <Message info style={{textAlign: "left", color: "black", backgroundColor: "white", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75"}}>
                 <h2>ARVRtise Domain Verification</h2>
                 <p>
                 Enter an ARVRtise Unstoppable Domain name (Ethereum or Polygon) to verify a:
@@ -40,7 +40,7 @@ export default function App() {
                 </p>
             </Message>
 
-            <Message info left style={{color: "black", backgroundColor: "white", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75", textAlign: "left"}}>
+            <Message info style={{color: "black", backgroundColor: "white", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75"}}>
                 <p><b>ARVRtise Domain:</b></p>
                 <Input style={{width: "100%", marginBottom: "10px", backgroundColor: "#C9FA75", color: "black"}} placeholder='👉 Enter a domain name (What3Bars.x)'
                        onChange={(e) => setDomain(e.target.value)}/>
@@ -60,7 +60,7 @@ export default function App() {
             }
 
             {loading &&
-                <Message left icon >
+                <Message icon >
                     <Icon name='circle notched' loading/>
                     <Message.Content>
                         <Message.Header>Just one second</Message.Header>
@@ -70,7 +70,7 @@ export default function App() {
             }
 
             {domainData ?
-                <Message info left style={{marginBottom: "50px", color: "black", backgroundColor: "white", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75"}}>
+                <Message info style={{marginBottom: "50px", color: "black", backgroundColor: "white", border: "#C9FA75", borderWidth: "thick", borderColor: "C9FA75"}}>
                     <Message.Header><h2>{domainData.name}</h2></Message.Header>
                     <Message info>
                         <Message.List style={{marginBottom: "10px"}}>
