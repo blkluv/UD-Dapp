@@ -30,13 +30,13 @@ export default function App() {
                 <br />
                 ✅ Membership 
                 <br />
-                ✅ ARVRtising campaign
+                   ✅ ARVRtising campaign
                 <br />
-                ✅ Virtual scavenger hunt
+                    ✅ Virtual scavenger hunt
                 <br />
-                ✅ Event ticket holder
+                 ✅ Event ticket holder
                 <br />
-                ✅ Loyalty rewards
+                  ✅ Loyalty rewards
                 </p>
             </Message>
 
