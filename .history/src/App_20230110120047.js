@@ -15,7 +15,7 @@ export default function App() {
     document.body.style.backgroundColor = "black";
 
     return (
-        <div style={{display: "block", border: "#C9FA75", borderWidth: "thick", width: "800px", maxWidth: "90%", margin: "50px auto", marginBottom: "10px"}}>
+        <div style={{display: "block", border: "#C9FA75", width: "800px", maxWidth: "90%", margin: "50px auto", marginBottom: "10px"}}>
             <div><img src="https://media.discordapp.net/attachments/1047420970371121153/1062249493577347143/Header.png?width=800&height=448" /></div> 
             <Message info style={{textAlign: "center", color: "black", backgroundColor: "white"}}>
                 <h2>ARVRtise Domain Verification</h2>
