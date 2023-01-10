@@ -31,7 +31,7 @@ export default function App() {
                 <Input style={{width: "100%", marginBottom: "10px", backgroundColor: "#C9FA75", color: "black"}} placeholder='👉 Enter a domain name (What3Bars.x)'
                        onChange={(e) => setDomain(e.target.value)}/>
                 <br/>
-                <Button color='#C9FA75' style={{color: "black"}}
+                <Button color='blue'
                         onClick={(e) => search(e, domain, setLoading, setError, setDomainData)}
                 >
                     Search
